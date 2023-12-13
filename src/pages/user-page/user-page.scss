@@ -1,0 +1,8 @@
+.user-page-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  margin-bottom: 50px;
+  overflow: auto;
+}

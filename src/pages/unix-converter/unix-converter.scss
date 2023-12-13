@@ -1,0 +1,30 @@
+.container {
+  font-family: 'Arial, sans-serif', sans-serif;
+  max-width: 400px;
+  margin: auto;
+  position: relative; /* Добавлено для контекста позиционирования */
+}
+
+.label {
+  display: block;
+  margin: 10px 0;
+}
+
+.input {
+  padding: 5px;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white; /* Фон таблицы, чтобы отделить ее от остального контента */
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}

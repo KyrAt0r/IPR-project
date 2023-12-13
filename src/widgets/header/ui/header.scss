@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__logo-link {
+    display: block;
+    height: 3rem;
+    margin: 1rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__site-name {
+    margin-left: 1rem;
+    flex: 1;
+  }
+
+  &__logo {
+    display: block;
+    height: 100%;
+
+    img {
+      visibility: hidden;
+
+      &:hover {
+        background: none;
+        visibility: visible;
+        border: 0;
+      }
+    }
+  }
+}

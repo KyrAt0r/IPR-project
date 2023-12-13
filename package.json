@@ -1,0 +1,42 @@
+{
+  "name": "petproject",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "antd": "^5.11.5",
+    "axios": "^1.6.2",
+    "compose-function": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.20.0",
+    "react-router-dom": "^6.20.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@types/compose-function": "^0.0.33",
+    "@types/node": "^20.10.1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.0.3",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "eslint": "^8.54.0",
+    "pkg-dir": "^7.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
